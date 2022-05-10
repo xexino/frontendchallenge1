@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@900&display=swap');
+
+/* nav bar css style */
+* {
+    color: hsl(0, 0%, 8%);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.n2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.n3 {
+    margin: 30px;
+}
+
+.n4 {
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.n5 {
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.n6 {
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.n8 {
+    margin: 40px;
+    border: none;
+    background-color: transparent;
+}
+
+.n7 {
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border-radius: 11px;
+    padding: 15px;
+}
+
+
+select {
+    box-shadow: 0 10px 25px transparent;
+    font-size: 1rem;
+    padding: 1em 2.2em 1em 1.5em;
+    background: transparent;
+    color: black;
+    border: 0;
+}
+
+.costom-select {
+    position: relative;
+}
+
+.costom-arrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    background: white;
+    height: 100%;
+    width: 1rem;
+    pointer-events: none;
+}
+
+.costom-arrow::before,
+.costom-arrow::after {
+    --size: 0.4em;
+    content: '';
+    position: absolute;
+    left: 30px;
+    width: 0;
+    height: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+}
+
+/* .costom-arrow::before{
+    border-left: var(--size) solid transparent;
+    border-right: var(--size) solid transparent;
+    border-bottom: var(--size) solid rgba(0, 0, 0, 0.5);
+    top: 40%;
+} */
+
+.costom-arrow::after {
+    border-left: var(--size) solid transparent;
+    border-right: var(--size) solid transparent;
+    border-top: var(--size) solid rgba(0, 0, 0, 0.5);
+    top: 50%;
+}
+
+
+.button-23 {
+    background-color: #FFFFFF;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: auto;
+}
+
+.button-23:focus-visible {
+    box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+    transition: box-shadow .2s;
+}
+
+.button-23:active {
+    background-color: #F7F7F7;
+    border-color: #000000;
+    transform: scale(.96);
+}
+
+.button-23:disabled {
+    border-color: #DDDDDD;
+    color: #DDDDDD;
+    cursor: not-allowed;
+    opacity: 1;
+}
+/*  /////////////       end of   nav bar css style              //////////////// */
+
+
+/* main page style   <<<xexinoyarabak>>>> */
+
+
+h1 {
+    font-family: Epilogue;
+    font-size: 80px;
+    color: hsl(0, 0%, 8%);
+    margin-bottom: 0;
+}
+
+p {
+    color: hsl(0, 0%, 41%);
+    font-size: 18px;
+    font-family: Epilogue;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-side {
+    margin-top: 45px;
+    display: grid;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button-lrn {
+    background-color: hsl(0, 0%, 8%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 98%);
+    cursor: pointer;
+    display: inline-block;
+    font-family: Epilogue;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin-top: 50px;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-bottom: 0;
+    width: fit-content;
+}
+
+.button-lrn:hover,
+.button-lrn:focus {
+    background-color: #4757e8;
+}
+
+.sponsor {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -28px;
+    margin-top: 50px;
+
+}
